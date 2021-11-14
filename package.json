@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "site",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build && cp -R _redirects public/",
+    "dev": "gatsby develop",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@narative/gatsby-theme-novela": "https://github.com/IanSaunders/gatsby-theme-novela",
+    "gatsby": "^2.13.41",
+    "gatsby-plugin-ffmpeg": "^0.4.3",
+    "gatsby-plugin-google-analytics": "^2.1.6",
+    "gatsby-plugin-manifest": "^2.2.4",
+    "gatsby-remark-better-embed-video": "^2.4.0",
+    "gatsby-remark-embed-video": "^3.1.1",
+    "gatsby-transformer-ffmpeg": "^0.4.0",
+    "gatsby-video": "^0.2.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
