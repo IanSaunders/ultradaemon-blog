@@ -44,7 +44,7 @@ module.exports = {
       options: {
         name: `Novela by Narative`,
         short_name: `Novela`,
-        start_url: `/blog`,
+        start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
         display: `standalone`,
