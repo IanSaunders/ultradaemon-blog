@@ -1,0 +1,2 @@
+# Redirects from what the browser requests to what we serve
+page-data/index/Page-data.json page-data/index/page-data.json
