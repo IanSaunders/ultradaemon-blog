@@ -1,5 +1,4 @@
 import React, { useContext } from 'react';
-import { Link } from "@reach/router";
 import { graphql, useStaticQuery } from 'gatsby';
 import styled from '@emotion/styled';
 
@@ -53,10 +52,6 @@ const ArticlesHero: React.FC<IAuthor> = ({ authors }) => {
       <SubheadingContainer>
         <Bio author={featuredAuthor} />
       </SubheadingContainer>
-      <Link to="/">
-        Home
-      </Link>
-
     </Section>
   );
 };
