@@ -3,9 +3,9 @@ module.exports = {
     title: `Ian Saunders`,
     name: `Ian Saunders`,
     siteUrl: `https://ultradaemon.com/`,
-    description: `A memory bank of my favourite races and FKTs`,
+    description: `Meandering musings of a runner`,
     hero: {
-      heading: `A memory bank of my favourite races and FKTs`,
+      heading: `Meandering musings of a runner`,
       maxWidth: 652,
     },
     social: [
