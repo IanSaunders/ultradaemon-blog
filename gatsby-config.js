@@ -42,8 +42,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Novela by Narative`,
-        short_name: `Novela`,
+        name: `Ultra-Daemon`,
+        short_name: `Ultra-Daemon`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,

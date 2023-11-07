@@ -2,7 +2,7 @@
 title: Rio Del Lago 100
 author: Ian Saunders
 date: 2023-11-04
-hero: ./images/300_03_working_my_way_bridger_jack.png
+hero: ./images/buckle_hero_cropped.png
 excerpt: TBC
 ---
 
@@ -23,3 +23,16 @@ excerpt: TBC
 
 ### Training
 TBC
+
+# Pre-race
+
+
+## Race
+
+### TBC <small>(0 to 28 miles)</small>
+#### Aid stations: TBC
+
+
+# Post-race
+
+# Strava
