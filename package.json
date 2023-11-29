@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@narative/gatsby-theme-novela": "https://github.com/IanSaunders/gatsby-theme-novela",
-    "gatsby": "^2.13.41",
+    "gatsby": "^2.32.3",
     "gatsby-plugin-ffmpeg": "^0.4.3",
     "gatsby-plugin-google-analytics": "^2.1.6",
     "gatsby-plugin-manifest": "^2.2.4",
