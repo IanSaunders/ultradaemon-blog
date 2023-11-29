@@ -240,3 +240,5 @@ Here you are able to override the styles for colors, fonts, prism, components, a
 To learn more about Component Shadowing we recommend reading [Gatsby's blog post about it](https://www.gatsbyjs.org/blog/2019-04-29-component-shadowing/) and the [official documentation](https://www.gatsbyjs.org/docs/theme-api/#shadowing).
 
 yarn cache clean && rm -rf node_modules && yarn install
+
+https://handbook.hung.dev/blog/sharp-error-mac-m1/
