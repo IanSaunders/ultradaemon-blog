@@ -7,3 +7,13 @@
     - url: https://www.linkedin.com/in/ian-m-saunders/
     - url: https://twitter.com/lostvoxel
   featured: true
+
+  - name: San Crawford
+  bio: |
+    Sam Crawford is a runner, entrepreneur and technologist.
+  avatar: ./avatars/ian_avatar.jpeg
+  social:
+    - url: https://github.com/IanSaunders
+    - url: https://www.linkedin.com/in/ian-m-saunders/
+    - url: https://twitter.com/lostvoxel
+  featured: true
