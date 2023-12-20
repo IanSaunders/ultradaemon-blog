@@ -7,3 +7,8 @@
     - url: https://www.linkedin.com/in/ian-m-saunders/
     - url: https://twitter.com/lostvoxel
   featured: true
+- name: Sam Crawford
+  bio: |
+    Sam Craword is a runner, entrepreneur and technologist.
+  avatar: ./avatars/sam_avatar.jpeg
+  featured: true
