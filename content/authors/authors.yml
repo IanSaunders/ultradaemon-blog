@@ -9,6 +9,8 @@
   featured: true
 - name: Sam Crawford
   bio: |
-    Sam Craword is a runner, entrepreneur and technologist.
+    Sam Crawford is a runner, entrepreneur and technologist.
   avatar: ./avatars/sam_avatar.jpeg
   featured: true
+  social:
+    - url: https://github.com/IanSaunders
