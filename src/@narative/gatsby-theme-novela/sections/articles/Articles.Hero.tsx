@@ -49,9 +49,9 @@ const ArticlesHero: React.FC<IAuthor> = ({ authors }) => {
       <HeadingContainer style={{ maxWidth: `${hero.maxWidth}px` }}>
         <HeroHeading dangerouslySetInnerHTML={{ __html: hero.heading }} />
       </HeadingContainer>
-      <SubheadingContainer>
+      {/* <SubheadingContainer>
         <Bio author={featuredAuthor} />
-      </SubheadingContainer>
+      </SubheadingContainer> */}
     </Section>
   );
 };

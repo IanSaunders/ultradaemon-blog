@@ -9,8 +9,8 @@
   featured: true
 - name: Sam Crawford
   bio: |
-    Sam Crawford is a runner, entrepreneur and technologist.
+    Running and beer enthusiast. CTO at http://samknows.com. Developer of http://trailrouter.com and http://sheetlabs.com
   avatar: ./avatars/sam_avatar.jpeg
   featured: true
   social:
-    - url: https://github.com/IanSaunders
+    - url: https://twitter.com/samcrawford_84

@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Ian Saunders`,
-    name: `Ian Saunders`,
-    siteUrl: `https://ultradaemon.com/`,
-    description: `Meandering musings of a runner`,
+    title: `Ultra Daemon`,
+    name: `Ultra Daemon`,
+    siteUrl: `https://ultra-daemon.com/`,
+    description: `Meandering musings`,
     hero: {
-      heading: `Meandering musings of a runner`,
+      heading: `Meandering musings`,
       maxWidth: 652,
     },
     social: [
