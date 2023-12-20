@@ -27,6 +27,7 @@ module.exports = {
     {
       resolve: "@narative/gatsby-theme-novela",
       options: {
+        authorsPage: true,
         siteConfig: {
           postsPerPage: 12,
         },  
