@@ -1,0 +1,24 @@
+AS #,Aid Station,Total Mileage,Segment (miles),Total KM,Segment (km),Cutoff,Crew Access,Notes,Pacer Access,Drop Bag,Toilet,19H AS Arrival,Segment Ascent (ft),Segment Descent (ft),Segment Ascent (m),Segment Descent (m),Aid Type
+--,Start,0,7.1,0,11.36,,YES,,,,YES,,1785,1952,544.3,595,
+1,Umbrella,7.1,4.1,11.36,6.56,,YES,,,,YES,Sat 6:23 AM,707,1162,215.7,354.3,Full Service
+2,Bennett Pass#,11.2,4.2,17.92,6.72,,YES,Ice in drop,,YES,YES,Sat 7:06 AM,1291,498,393.6,151.7,Full Service
+3,Gunsight,15.4,7.8,24.64,12.48,,,,,,,Sat 7:56 AM,1252,3154,381.7,961.7,Water/Self Serve
+4,Robinhood#,23.2,9.3,37.12,14.88,12:30 PM,YES,Ice in drop,,YES,YES,Sat 9:22 AM,1649,2281,502.8,695.5,Full Service
+5,Polallie,32.5,4.9,52,7.84,,,,,,YES,Sat 10:55 AM,1847,422,563.2,128.6,Full Service
+6,Surveyors#,37.4,9.5,59.84,15.2,5:30 PM,YES,Ice provided,,YES,YES,Sat 11:59 AM,1662,1765,506.6,538.2,Full Service
+7,Fifteenmile,46.9,8.2,75.04,13.12,8:45 PM,YES,,,,YES,Sat 1:41 PM,1771,2313,539.9,705.3,Full Service
+8,Underhill#,55.1,9.6,88.16,15.36,11:30 PM,YES,Ice in Drop + change of clothes,YES,YES,YES,Sat 3:09 PM,2096,2012,639,613.3,Full Service
+9,Bottle Prairie,64.7,5.4,103.52,8.64,,,,,,YES,Sat 4:58 PM,1326,569,404.2,173.5,Full Service
+10,Surveyors#,70.1,7.8,112.16,12.48,4:30 AM (Sunday),YES,Change of clothes + Crew,YES,YES,YES,Sat 5:57 PM,1946,1350,593.4,411.7,Full Service
+11,High Prairie,77.9,7.3,124.64,11.68,7:30 AM,,,,,YES,Sat 7:32 PM,1557,2092,474.7,637.8,Full Service
+12,Gunsight,85.2,4.2,136.32,6.72,,,,,,,Sat 8:53 PM,892,753,271.9,229.5,Water/Self Serve
+13,Bennett Pass#,89.4,4.1,143.04,6.56,11:25 AM,YES,Pacer!,YES,YES,YES,Sat 9:41 PM,1627,560,496,170.8,Full Service
+14,Umbrella#,93.5,6.5,149.6,10.4,12:45 PM,YES,,YES,,YES,Sat 10:38 PM,466,992,142,302.3,Full Service
+--,Finish,100,--,160,--,3:00 PM,YES,,,,YES,Sun 12:00 AM,-,-,-,-,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,Sunise,,,5:48 AM,,,,,,,,,,,,,
+,Sunset,,,8:46 PM,,,,,,,,,,,,,
+,Darkness,,,9 hours,,,,,,,,,,,,,
+,https://www.daybreakracing.com/hood-hundred-course,,,,,,,,,,,,,,,,
+,#,,,Indicats Drop,,,,,,,,,,,,,
