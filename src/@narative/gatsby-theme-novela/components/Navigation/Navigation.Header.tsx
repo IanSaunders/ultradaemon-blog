@@ -134,6 +134,9 @@ const NavigationHeader: React.FC<{}> = () => {
             </button>
           ) : (
             <>
+              <NavLink to="/about" fill={fill}>
+                About
+              </NavLink>
               <ToolsLink
                 href="https://tools.ultra-daemon.com"
                 target="_blank"
@@ -241,6 +244,26 @@ const NavControls = styled.div`
 
   ${mediaqueries.phablet`
     right: -5px;
+  `}
+`;
+
+const NavLink = styled(Link)<{ fill: string }>`
+  display: inline-flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: ${p => p.fill};
+  opacity: 0.5;
+  margin-right: 10px;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  ${mediaqueries.tablet`
+    font-size: 14px;
   `}
 `;
 
