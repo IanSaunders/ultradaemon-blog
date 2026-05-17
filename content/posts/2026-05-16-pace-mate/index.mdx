@@ -1,0 +1,79 @@
+---
+title: pace-mate
+author: Ian Saunders
+date: 2026-05-16
+hero: ./images/pace-mate.png
+excerpt: After a few days of grumbling, I had the obvious, sensible reaction...
+---
+
+# App Information
+* **Web App:** [App](https://tools.ultra-daemon.com/pace-mate/)  
+* **About:** [Strava](https://tools.ultra-daemon.com/pace-mate/about)  
+
+
+
+# Why I Built Pace Mate
+
+I spend a surprising amount of time converting running numbers in my head.
+
+Part of this is self-inflicted. I’m from the UK, live in the US, and seem to have chosen a hobby that refuses to agree on a unit system. Depending on the day, I might be thinking in kilometres, miles, min/km, min/mile, km/h, mph, 5K splits, 100-mile cutoffs, or some awful mixture of all of them.
+
+Very normal behaviour, obviously.
+
+## Preamble
+
+For years, I got by with a mixture of apps, websites, watch screens, spreadsheets, and the slightly unreliable calculator that lives somewhere in my brain.
+
+Most of the time, this was fine. If I wanted to know what 4:00/km was in mile pace, or what a 7:30/mile effort meant for a half marathon, I could usually work it out. Slowly. With enough coffee. And occasionally by confidently getting it wrong.
+
+The problem was that the tools I used never quite matched how I actually think about running.
+
+Sometimes I wanted to edit distance and have the pace update. Sometimes I wanted to change the finish time and see the required pace. Sometimes I wanted metric and imperial visible at the same time, because switching tabs just to answer “is that fast?” felt silly. Sometimes I wanted common race distances, ultra distances, split cards, and target times without needing to bounce between three different calculators.
+
+None of this is particularly revolutionary. It’s just the sort of small friction that becomes annoying when you hit it often enough.
+
+## The Final Push
+
+The actual trigger was wonderfully petty.
+
+One of the tools I’d been using updated its UX, and suddenly the thing that used to be quick became slow and fiddly. I’m sure a lot of thought went into the redesign, but unfortunately it disagreed with my thumbs, my eyes, and my patience.
+
+After a few days of grumbling, I had the obvious, sensible reaction:
+
+“Fine, I’ll build my own.”
+
+And just like that, Pace Mate became a thing.
+
+## What I Wanted
+
+The main goal was to make a running calculator that behaved the way I wanted in the middle of normal runner brain.
+
+The calculator opens first because that’s the thing I reach for most. Distance, pace, speed, and time can all be edited directly, and the other values update around them. Metric and imperial stay visible together, because hiding one of them is exactly how I end up doing mental arithmetic badly.
+
+I also added race tools for quick projections and target times. If I pick a 10K, I want to see what the equivalent half or marathon pace looks like. If I’m chasing a target, I want the required pace without doing a small maths exam.
+
+Then there’s the converter view for quick pace, speed, distance, common splits, and training-zone-ish numbers. These are the small things I look up repeatedly, so they deserved to be one tap away.
+
+It also includes support for normal races and daft races. 400 m? Sure. 5K? Obviously. 100 miles? Unfortunately, yes.
+
+## Vibe Coding It
+
+This was also my first real experiment in aggressively vibe-coding an app from idea to release.
+
+I started with the web version, mostly because it was the quickest way to prove the calculations and interaction model. Plain HTML, CSS, and JavaScript got me surprisingly far. Once the web app felt useful, I used that as the blueprint for the iOS version.
+
+The native app is built in SwiftUI, which meant I could keep the same basic structure: Calculator, Race, Convert, and Settings. The iOS version also saves target finish times, because entering the same goals repeatedly is the kind of nonsense computers are meant to prevent.
+
+The process was a mix of describing what I wanted, poking at the result, deciding it was almost but not quite right, and then refining the details until it felt good enough to use. Not exactly traditional software engineering theatre, but very effective for a personal tool.
+
+As with most useful projects, the hard bit wasn’t the maths. It was making the small interactions feel obvious.
+
+## Wrap
+
+Pace Mate is not trying to be a training platform, coaching system, social network, or yet another place to upload a run and receive suspiciously confident advice.
+
+It’s just a small running calculator that keeps the numbers I care about in one place.
+
+Mostly, I built it because I wanted it to exist.
+
+And because apparently I would rather build and release two versions of an app than tolerate a bad unit converter for one more week.
